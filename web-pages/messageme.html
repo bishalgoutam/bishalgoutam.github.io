@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Message Me</title>
+        <link href="../components/style_main.css" rel="stylesheet">
+        <!-- Applying Vue, downloading Vue in CDN form, defer ensures that download happens in parallel to parsing of HTML-->
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <!-- specifying the JS file that contains all the Custom Vue App code-->
+        <script src="../components/vue-app.js" defer></script>
+        <script src="../components/functions.js" defer></script>
+    </head>
+    <body>
+        <!-- Top Navigation. Same look on all pages. Internal Links-->
+        <nav>
+            <p> 
+                <a href="../index.html"><strong>home</strong></a>&ensp;|&ensp;
+                <a href="./aboutme.html"><strong>about me</strong></a>&ensp;|&ensp;
+                <a href="./academics.html"><strong>academics</strong></a>&ensp;|&ensp;
+                <a href="./work.html"><strong>work</strong></a>&ensp;|&ensp;
+                <a href="./blogs.html"><strong>blogs</strong></a>&ensp;|&ensp;
+                <a href="./hobbies.html"><strong>hobbies</strong></a>&ensp;|&ensp;
+                <a href="./traveldiaries.html"><strong>travel</strong></a>&ensp;|&ensp;
+                <a href="./resume.html"><strong>resume</strong></a>&ensp;|&ensp;
+                <button class="button" id="msgBtn"><strong>Message Me</strong></button>&ensp;&ensp;
+                <button class="button" id="findBtn"><strong>Find My Work</strong></button>&ensp;&ensp;
+            </p>         
+        </nav> 
+        <h1>Message Me</h1>
+        <div class="container">
+          <form name="form_1" method="POST" action="./messageme.html" onsubmit="return validate_form_1()">
+              <div class="content-box" style="background-color:beige; width: 400px;">
+                <label for="first_name"><strong>First Name</strong></label><br>
+                <input type="text" id="first_name" name="firstname" placeholder="Your name.." class="content-box" style="background-color:orange">
+              </div>
+              <div class="content-box" style="background-color:beige; width: 400px;">
+                <label for="last_name"><strong>Last Name</strong></label><br>
+                <input type="text" id="last_name" name="lastname" placeholder="Your last name.." class="content-box" style="background-color:orange">
+          
+              </div>
+              <div class="content-box" style="background-color:beige; width: 400px;">
+                <label for="guest_email"><strong>Guest Email</strong></label><br>
+              <input type="email" id="guest_email" name="guestemail" placeholder="Your email.." class="content-box" style="background-color:orange">
+                 
+              </div >
+              <div class="content-box" style="background-color:beige; width: 400px;">
+                <label for="subject"><strong>Subject</strong></label><br>
+              <input type="text" id="subject" name="subject" placeholder="Subject.." class="content-box" style="background-color:orange">
+
+              </div>
+              <div class="content-box" style="background-color:beige; width: 400px;">
+                <label for="mail_content"><strong>Message</strong></label><br>
+                <textarea id="mail_content" name="mailcontent" placeholder="Type your message.." class="content-box" style="background-color:orange; height:200px;">
+                </textarea>
+              </div>
+              <div class="content-box" style="background-color:beige; width: 400px; align-items: center;">
+                <input type="submit" value="Submit" style="background-color: blue; color:white; padding: 0.05rem 1rem; box-shadow: 1px 1px 2px black;">
+
+              </div>    
+
+            </form>
+          </div>        
+    </body>
+</html>

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home</title>
+        <link href="./components/style_main.css" rel="stylesheet">
+        <!-- Applying Vue, downloading Vue in CDN form, defer ensures that download happens in parallel to parsing of HTML-->
+        <script src="https://unpkg.com/vue@next" defer></script>
+        <!-- specifying the JS file that contains all the Custom Vue App code-->
+        <script src="./components/vue-app.js" defer></script>
+        <script src="./components/functions.js" defer></script>
+    </head>
+    <body style="background-color:beige"> 
+        <!-- Top Navigation. Same look on all pages. Internal Links-->
+        <nav>
+            <p> 
+                <a href="index.html"><strong>home</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/aboutme.html"><strong>about me</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/academics.html"><strong>academics</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/work.html"><strong>work</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/blogs.html"><strong>blogs</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/hobbies.html"><strong>hobbies</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/traveldiaries.html"><strong>travel</strong></a>&ensp;|&ensp;
+                <a href="./web-pages/resume.html"><strong>resume</strong></a>&ensp;|&ensp;
+                <button class="button" id="msgBtn"><strong>Message Me</strong></button>&ensp;&ensp;
+                <button class="button" id="findBtn"><strong>Find My Work</strong></button>&ensp;&ensp;
+            </p>            
+        </nav>
+        <div>
+            <table>
+                <tr>
+                    <td >
+                        <img class="picture_thumbnail" src="./images/image-9.jpg" alt="image of Bishal Goutam">&ensp;&ensp;  
+                    </td>
+                    <td> <p class="content-box" style="background-color:orange"> <strong>Bishal Goutam</strong><br><br>             
+                            Graduate Student in MS Software Development, BU-MET <br><br>
+                                Technology Architecture Delivery Associate Manager<br>
+                                Accenture, Miami, Florida, U.S.A.<br>
+                                <a href="https://www.linkedin.com/in/bishal-goutam-9139451a/" target="_blank">My LinkedIn Profile</a> | E-Mail: <a href="mailto:bishalgoutam3@gmail.com">bishalgoutam3@gmail.com</a> | Contact: +1 614 943 5082
+                                <br>
+                            </p>
+                        <!-- Used table here to create columns to organize image and text -->
+                        <p class="content-box" style="background-color:orange;">                        
+                            Hello! Welcome to my profile website. I'm <strong>Bishal Goutam.</strong> I am a graduate student at <strong>Boston University MET</strong>
+                            in the online <strong>MS Software Development program.</strong> This is my first semester, my first subject Web Application Development 
+                            and my first assignment. It's so exciting here at BU. <br>
+                            <br>I am currently residing in Miramar, Florida. Its part of the Miami Metropolitan. Its a very beautiful city. I like it.                   
+                        </p>                          
+                    </td>
+                </tr>
+            </table>
+        </div>      
+    </body>
+</html>
+    
