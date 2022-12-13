@@ -12,8 +12,8 @@ var hobbyExpanded =['false','false'];
 
 var travelnotes = ['This is fisrt article. This is to show use of DOM manipulation using JavaScript.', 
                     'This is second article.This is to show use of DOM manipulation using JavaScript.',
-                    'This is second article.This is to show use of DOM manipulation using JavaScript.',
-                    'This is second article.This is to show use of DOM manipulation using JavaScript.'];
+                    'This is third article.This is to show use of DOM manipulation using JavaScript.',
+                    'This is fourth article.This is to show use of DOM manipulation using JavaScript.'];
 var destinations = ['New York', 'Dublin', 'Miami', 'Los angeles', 'Orlando'];
 var travelExpanded =['false','false', 'false','false'];
         
