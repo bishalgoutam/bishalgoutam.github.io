@@ -6,6 +6,8 @@ My Portfolio Website.
 Project Description: 
 This is project to design, develop, build and deploy a frontend application of professional portfolio using HTML, CSS, JavaScript and Vue.JS.
 
+Prsentation Link - https://youtu.be/wTHrVtEuXyQ
+
 How to Use the Project: 
 •	To access the code repository, go to -> bishalgoutam/bishalgoutam.github.io
 •	To Launch the website, go to -> https://bishalgoutam.github.io/index.html
