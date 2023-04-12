@@ -283,8 +283,8 @@
   }
 
   .picture_thumbnail {
-    height: 400pt;
-    width: 400pt;
+    height: 200pt;
+    width: 200pt;
     border-radius: 50%;
     background-size: cover;
     background-position: center;
